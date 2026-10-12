@@ -2,7 +2,7 @@
 
 int main() {
   long distance, order_value;
-  printf("Nhap khoang cach giao hang: ", distance,"(km)")
+  printf("Nhap khoang cach giao hang: ", distance,"(km)");
   scanf("%ld", &distance);
   printf("Nhap gia tri don hang: ", order_value, "(dong)");
   if ( distance<=0 || order_value<0 ){
