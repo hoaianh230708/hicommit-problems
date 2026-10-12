@@ -5,6 +5,7 @@ int main() {
   printf("Nhap khoang cach giao hang: ", distance,"(km)");
   scanf("%ld", &distance);
   printf("Nhap gia tri don hang: ", order_value, "(dong)");
+  scanf("%ld", &order_value);
   if ( distance<=0 || order_value<0 ){
     printf("INVALID");
   } 
