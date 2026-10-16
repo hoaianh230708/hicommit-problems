@@ -3,7 +3,7 @@
 int main() {
     long long a, b, c, max;
 
-    scanf("%Ld %Ld %Ld", &a, &b, &c)
+    scanf("%Ld %Ld %Ld", &a, &b, &c);
 
     max = a;
 
