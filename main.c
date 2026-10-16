@@ -2,9 +2,9 @@
 
 int main() {
   long distance, order_value;
-  printf("Nhap khoang cach giao hang: ", distance,"(km)");
+  printf("Nhap khoang cach giao hang: %ld", distance,"(km)");
   scanf("%ld", &distance);
-  printf("Nhap gia tri don hang: ", order_value, "(dong)");
+  printf("Nhap gia tri don hang: %ld", order_value, "(dong)");
   scanf("%ld", &order_value);
   if ( distance<=0 || order_value<0 ){
     printf("INVALID");
