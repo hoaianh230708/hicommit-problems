@@ -6,11 +6,11 @@ int main() {
   scanf("%Ld", &n);
   if (n%2==0)
   {
-    printf("CHAN")
+    printf("CHAN");
   }
   else
   {
-    printf("LE")
+    printf("LE");
   }
   return 0;
 }
