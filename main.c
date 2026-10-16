@@ -18,7 +18,7 @@ int main()
   }
   else
   {
-    printf("RAT NONG");
+    printf("RAT_NONG");
   }
   return 0;
 }
