@@ -7,19 +7,19 @@ int main()
   scanf("%d", &t);
   if (t<15)
   {
-    printf("LANH");
+    printf("LANH \n");
   }
   else if( t>15 || t<25)
   {
-    printf("MAT");
+    printf("MAT \n");
   }
   else if ( t>25 || t<35)
   {
-    printf("NONG");
+    printf("NONG \n");
   }
   else
   {
-    printf("RAT_NONG");
+    printf("RAT_NONG \n");
   }
   return 0;
 }
