@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    long long a, b, c, max
+    long long a, b, c, max;
 
     scanf("%Ld %Ld %Ld", &a, &b, &c)
 
