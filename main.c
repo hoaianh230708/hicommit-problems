@@ -27,7 +27,7 @@ int main() {
   {
     printf("D+");
   }
-  else if(dtb>=4.0 && dtb<4.9)
+  else if(dtb>=4.0 && dtb<5.0)
   {
     printf("D");
   }
