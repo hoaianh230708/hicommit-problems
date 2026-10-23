@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  int w, h;
-  double bmi;
-  scanf("%d", &w);
-  scanf("%d", &h);
+  double w, h, bmi;
+  scanf("%lf", &w);
+  scanf("%lf", &h);
   bmi=w/((h/100)*(h/100));
   if(bmi<18.5)
   {
