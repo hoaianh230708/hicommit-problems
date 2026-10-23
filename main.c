@@ -2,12 +2,12 @@
 
 int main() {
   int k;
-  double tien;
+  long long tien;
   scanf("%d", &k);
   if(k<=50)
   {
     tien=k*1678;
-    printf("k");
+    printf("%lld", tien);
   }
   return 0;
 }
