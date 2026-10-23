@@ -7,9 +7,13 @@ int main() {
   {
     printf("A");
   }
-  else if(dtb>=7.0 && dtb<8.0)
+  else if(dtb>=8.0 && dtb<9.0)
   {
     printf("B+");
+  }
+  else if(dtb>=7.0 && dtb<8.0)
+  {
+    printf("B");
   }
   return 0;
 }
