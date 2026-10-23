@@ -2,8 +2,7 @@
 
 int main() {
   double w, h, bmi;
-  scanf("%lf", &w);
-  scanf("%lf", &h);
+  scanf("%lf %lf", &w, &h);
   bmi=w/((h/100)*(h/100));
   if(bmi<18.5)
   {
