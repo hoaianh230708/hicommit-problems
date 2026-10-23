@@ -19,5 +19,10 @@ int main() {
     tien=tien=50*1678+50*1734+(k-100)*2014;
     printf("%lld", tien);
   }
+  else if(k>200 && k<=300)
+  {
+    tien=tien=50*1678+50*1734+100*2014+(k-200)*2536;
+    printf("%lld", tien);
+  }
   return 0;
 }
