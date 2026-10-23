@@ -9,7 +9,7 @@ int main() {
   }
   else if(dtb>=7.0 && dtb<8.0)
   {
-    printf("B+")
+    printf("B+");
   }
   return 0;
 }
