@@ -27,11 +27,11 @@ int main() {
   {
     printf("D+");
   }
-  else if(dtb>=4.0 && dtb<4.9)
+  else if(dtb>4.0 && dtb<4.9)
   {
     printf("D");
   }
-  else if(dtb<4.0)
+  else if(dtb<=4.0)
   {
     printf("F");
   }
