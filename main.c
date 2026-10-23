@@ -17,5 +17,9 @@ int main() {
   {
     printf("OVERWEIGHT");
   }
+  else if(bmi>=30)
+  {
+    printf("OBESE");
+  }
   return 0;
 }
