@@ -15,5 +15,9 @@ int main() {
   {
     printf("B");
   }
+  else if(dtb>=6.5 && dtb<7.0)
+  {
+    printf("C+");
+  }
   return 0;
 }
