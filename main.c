@@ -33,5 +33,19 @@ int main() {
       printf("INVALID ");
     }
   }
+  else
+  {
+    if( y%400==0 || y%4==0 && y%100!=0)
+    {
+      if(d<=29)
+      {
+        printf("VALID");
+      }
+      else
+      {
+        printf("INVALID");
+      }
+    }
+  }
   return 0;
 }
