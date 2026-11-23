@@ -6,15 +6,15 @@ int main()
   scanf("%lf", &d);
   if( d<=1 )
   {
-    tien=(long int)d*15000;
+    (long int)tien=d*15000;
   }
   else if(d<=5)
   {
-    tien=(long int) 1*15000 + (d-1)*13000;
+    (long int)tien= 1*15000 + (d-1)*13000;
   }
   else
   {
-    tien=(long int) 1*15000+4*13000+(d-5)*11000;
+    (long int)tien= 1*15000+4*13000+(d-5)*11000;
   }
   
   printf("%ld", tien\n);
