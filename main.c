@@ -4,7 +4,7 @@ int main()
 {
   double d;
   long int tien;
-  scanf("%lf", &d)
+  scanf("%lf", &d);
   if( d<=1 )
   {
     tien=d*15000;
