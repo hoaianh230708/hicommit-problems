@@ -28,7 +28,7 @@ int main() {
           printf("INVALID");
       }
   }
-  if ( m==4 || m==6 || m==9 || m=11 )
+  if ( m==4 || m==6 || m==9 || m==11 )
   {
     if ( d==30)
     {
