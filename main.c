@@ -19,6 +19,10 @@ int main()
     {
       printf("EXCELLENT");
     }
+    else if(gpa>=6.5 && min>=5.0)
+    {
+      printf("GOOD");
+    }
   }
   return 0;
 }
